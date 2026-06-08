@@ -85,3 +85,8 @@ body{
     padding: 10px 20px;
     margin-left: 25px;
 }
+.btnn:hover{
+    background-color: rgb(105, 49, 27);
+    color: white;
+    transition: 0.3s ease;
+}
