@@ -90,3 +90,42 @@ body{
     color: white;
     transition: 0.3s ease;
 }
+
+.container {
+  display: flex;          
+  justify-content: space-between;
+  gap: 20px;              
+  padding: 100px;
+    margin-top: 300px;
+    border: 2px solid white;
+    background-color: #fee2e2f8;
+    flex-wrap: wrap;
+}
+
+.column {
+  flex: 1;                
+  background-color: #f7bebef1;
+  padding: 20px;
+  border-radius: 50px;
+}
+.column img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+.sweet{
+    font-weight: bold;
+    font-size: 40px;
+    text-align: start;
+     color: rgb(105, 49, 27);
+    width: 100%;
+    margin-bottom: 30px;
+}
+.column h2,
+.column p{
+   text-align: center;
+    justify-content: center;
+}
